@@ -1,0 +1,27 @@
+.box1{
+    height: 70px;
+    width: 100%;
+    background-color: orange;
+}
+.box2{
+    height: 270px;
+    width: 100%;
+    display: inline-block;
+}
+.box3{
+    height: 270px;
+    width: 35%;
+    background-color: blue;
+    display: inline-block;
+}
+.box4{
+    height: 270px;
+    width: 64.2%;
+    background-color: green;
+    display: inline-block;
+}
+.box5{
+    height: 70px;
+    width: 100%;
+    background-color: red;
+}

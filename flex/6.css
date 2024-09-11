@@ -1,0 +1,36 @@
+body{
+    padding: 100px;
+}
+header{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+main{
+    display: flex;   
+}
+nav{
+    height: 200px;
+    background-color: blue;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+article{
+    height: 200px;
+    background-color: green;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+footer{
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,7 @@
+console.log("Sankar Ganesh")
+console.log(21)
+console.log("15.05.2003")
+console.log("PSN College of Engineering and Technology")
+console.log(2024)
+console.log(8903801990)
+console.log("Tirunelveli")

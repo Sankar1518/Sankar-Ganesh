@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Example</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.js">
+    <style>
+        .myswiper {
+            position: relative;
+            padding-bottom: 40px;
+        }
+        img {
+            width: 100%;
+        }
+        .card {
+            padding: 0 8px;
+            overflow: hidden;
+        }
+        .swiper-slide:not(.swiper-slide-active) .card__title {
+            opacity: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="myswiper">
+        <div class="swiper">
+            <div class="swiper-wrapper g-5">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="content">
+                            <p style="font-size: large; color: gray; font-family: sans-serif;">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                        </div>
+                        <div class="author d-flex justify-content-center align-items-center" style="line-height: 1;">
+                            <div class="author-pic ">
+                                <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="Image" id="img">
+                            </div>
+                            <div class="author-name">
+                                <h5>Carl Anderson <br>Director at Google</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="content">
+                            <p style="font-size: large; color: gray; font-family: sans-serif;">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                        </div>
+                        <div class="author d-flex">
+                            <div class="author-pic d-flex">
+                                <img src="https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg" alt="Image" id="img">
+                            </div>
+                            <div class="author-name">
+                                <h5>Carl Anderson <br>Director at Google</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="content">
+                            <p style="font-size: large; color: gray; font-family: sans-serif;">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                        </div>
+                        <div class="author d-flex">
+                            <div class="author-pic">
+                                <img src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725235200&semt=ais_hybrid" alt="Image" id="img">
+                            </div>
+                            <div class="author-name">
+                                <h5>Carl Anderson <br> Director at Google
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="content">
+                            <p style="font-size: large; color: gray; font-family: sans-serif;">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                        </div>
+                        <div class="author d-flex">
+                            <div class="author-pic d-flex">
+                                <img src="https://www.pngitem.com/pimgs/m/106-1068071_black-person-png-black-man-business-png-transparent.png" alt="Image" id="img">
+                            </div>
+                            <div class="author-name">
+                                <h5>Carl Anderson <br> Director at Google
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints:{
+                1024: {
+              slidesPerView: 3,
+          },
+          481:{
+              slidesPerView: 2,
+          },
+          425:{
+              slidesPerView: 1,
+          },
+               
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.box{
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box1{
+    background-color: brown;
+    flex: 1;
+}
+.box2{
+    background-color: rebeccapurple;
+    flex: 1;
+}
+.box3{
+    background-color: red;
+    flex: 1;
+}

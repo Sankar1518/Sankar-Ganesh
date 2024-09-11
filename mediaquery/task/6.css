@@ -1,0 +1,167 @@
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.box1{
+    height: 50px;
+    background-color: yellow;
+    width: 29%;
+}
+.box2{
+    height: 50px;
+    width: 69%;
+    background-color: orange;
+}
+nav{
+    background-color: red;
+    height: 50px;
+    display: flex;
+}
+section{
+    height: 150px;
+    width: 100%;
+    background-color: skyblue;
+}
+aside{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contentbox{
+    height: 200px;
+    width: 32.5%;
+    flex-wrap: wrap;
+}
+.box3{
+    height: 200px;
+    width: 32.5%;
+    background-color: skyblue;
+}
+.box4{
+    height: 200px;
+    width: 32.5%;
+    background-color: skyblue;
+}
+@media only screen and (max-width:480px){
+    main{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .box1{
+        height: 50px;
+        background-color: yellow;
+        width: 100%;
+    }
+    .box2{
+        height: 50px;
+        width: 100%;
+        background-color: orange;
+    }
+    nav{
+        background-color: red;
+        height: 50px;
+        display: flex;
+        width: 100%;
+    }
+    section{
+        height: 100px;
+        width: 100%;
+        background-color: skyblue;
+    }
+    aside{
+        height: 530px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .contentbox{
+        height: 300px;
+        width: 100%;
+        text-align: justify;
+    }
+    .box3{
+        height: 150px;
+        width: 100%;
+        background-color: skyblue;
+    }
+    .box4{
+        height: 150px;
+        width: 100%;
+        background-color: skyblue;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .box1{
+        height: 50px;
+        background-color: yellow;
+        width: 29%;
+    }
+    .box2{
+        height: 50px;
+        width: 69%;
+        background-color: orange;
+    }
+    nav{
+        background-color: red;
+        height: 50px;
+        display: flex;
+    }
+    section{
+        height: 150px;
+        width: 100%;
+        background-color: skyblue;
+    }
+    aside{
+        height: 330px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contentbox{
+        height: 200px;
+        width: 32.5%;
+        flex-wrap: wrap;
+    }
+    .box3{
+        height: 330px;
+        width: 32.5%;
+        background-color: skyblue;
+    }
+    .box4{
+        height: 330px;
+        width: 32.5%;
+        background-color: skyblue;
+    }
+    footer{
+        height: 100px;
+        width: 100%;
+        background-color: skyblue;
+    }
+}

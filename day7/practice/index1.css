@@ -1,0 +1,30 @@
+.box{
+    height: 300px;
+    width: 100%;
+    margin: 15px;
+    border: solid red 2px;
+    background-color: lightgreen;
+    padding: 20px;
+    display: inline-block;
+}
+.box1{
+    height: 225px;
+    width: 30.5%;
+    border: 20px;
+    background-color: beige;
+    display: inline-block;
+}
+.box2{
+    height: 225px;
+    width: 30.5%;
+    border: 20px;
+    background-color: beige;
+    display: inline-block;
+}
+.box3{
+    height: 225px;
+    width: 30.5%;
+    border: 20px;
+    background-color: beige;
+    display: inline-block;
+}

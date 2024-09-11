@@ -1,0 +1,42 @@
+body{
+    border: solid;
+}
+header{
+    height: 80px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+.left{
+    height: 150px;
+    background-color: palevioletred;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+body{
+    border: solid;
+}
+header{
+    height: 60px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 50px;
+    background-color: darkorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 50px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

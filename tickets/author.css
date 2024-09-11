@@ -1,0 +1,35 @@
+header {
+    height: 50px;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.author {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    height: 50px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 350px;
+    border: solid;
+}

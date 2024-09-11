@@ -1,0 +1,75 @@
+.back{
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-control{
+    border: 0;
+    padding: 15px;
+    border-radius: 0;
+}
+/* .searchbtn{
+    padding: 20px;
+    height: 65px;
+    margin-left: -54px;
+    width: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+} */
+
+@media only screen and (max-width:480px) {
+    .navbar{
+        justify-content: space-between !important;
+    }
+    .flaticon-compass{
+        display: flex;
+        align-items: center;
+        float: left;
+      
+    }
+    h3{
+        font-size: medium !important;
+    }
+    .back{
+        height: fit-content;
+        background-size: cover;
+    }
+    .form-group{
+        width: 100% !important;
+    }
+    .btn-group{
+        border-radius: 20px !important;
+    }
+    .navbar{
+        background-color: #151c26;
+    }
+    .navbar-toggler,
+    .navbar-toggler-icon{
+        color: white;
+    }
+    h1{
+        font-size: 40px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .back{
+        height: fit-content;
+        background-size: cover;
+    }
+    .navbar{
+        background-color: #151c26;
+    }
+    .navbar-toggler,
+    .navbar-toggler-icon{
+        color: white !important;
+    }
+    .citytitle{
+        font-size: 10px;
+    }
+}

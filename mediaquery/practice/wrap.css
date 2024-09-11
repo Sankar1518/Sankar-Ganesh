@@ -1,0 +1,37 @@
+.main {
+    height: 500px;
+    display: flex;
+    border: 1px solid;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    height: 100px;
+    width: 300px;
+    background-color: red;
+}
+
+.box2 {
+    height: 100px;
+    width: 300px;
+    background-color: brown;
+}
+
+.box3 {
+    height: 100px;
+    width: 300px;
+    background-color: burlywood;
+}
+
+.box4 {
+    height: 100px;
+    width: 300px;
+    background-color: gold;
+}
+
+.box5 {
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+}

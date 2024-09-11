@@ -1,0 +1,324 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 300px;
+    display: flex;
+    gap: 30px;
+}
+.box1{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    background-color: darkcyan;
+}
+.box2{
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+}
+.imgbox1{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 3, 61);
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1388119709/vector/watercolor-style-simple-background-illustration.jpg?s=612x612&w=0&k=20&c=0-4m2CqUUYG0MasNLafjWGwVV2NFd43piLqkEKLtggo=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contentbox{
+    display: flex;
+    width: 80%;
+    gap: 8px;
+    flex-direction: column;
+    height: 100px;
+}
+.content1{
+    height: 50px;
+    background-color: rgb(14, 3, 61);
+    width: 60%;
+}
+.content2{
+    height: 50px;
+    background-color: rgb(14, 3, 61);
+    width: 80%;
+}
+.content3{
+    height: 50px;
+    background-color: rgb(14, 3, 61);
+    width: 40%;
+}
+.box3{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    background-color: darkcyan;
+}
+.box4{
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+}
+.box5{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    background-color: darkcyan;
+}
+.box6{
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:480px){
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header{
+        height: 80px;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        height: 80px;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        height: 770px;
+    }
+    .box1{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: darkcyan;
+        justify-content: center;
+        align-items: center;
+    }
+    .box2{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgbox1{
+        height: 100px;
+        background-color: rgb(14, 3, 61);
+        width: 80%;
+    }
+    .contentbox{
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content1{
+        height: 40px;
+        background-color: rgb(14, 3, 61);
+        width: 60%;
+    }
+    .content2{
+        height: 40px;
+        background-color: rgb(14, 3, 61);
+        width: 80%;
+    }
+    .content3{
+        height: 40px;
+        background-color: rgb(14, 3, 61);
+        width: 40%;
+    }
+    .box3{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: darkcyan;
+        justify-content: center;
+        align-items: center;
+    }
+    .box4{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .box5{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: darkcyan;
+        justify-content: center;
+        align-items: center;
+    }
+    .box6{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header{
+        height: 80px;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        height: 80px;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        height: 620px;
+    }
+    .box1{
+        height: 200px;
+        display: flex;
+        width: 100%;
+        background-color: darkcyan;
+    }
+    .box2{
+        height: 200px;
+        gap: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .imgbox1{
+        height: 150px;
+        background-color: rgb(14, 3, 61);
+        width: 30%;
+        display: flex;
+    }
+    .contentbox{
+        height: 100px;
+        width: 50%;
+        display: flex;
+    }
+    .content1{
+        height: 50px;
+        background-color: rgb(14, 3, 61);
+        width: 80%;
+    }
+    .content2{
+        height: 50px;
+        background-color: rgb(14, 3, 61);
+        width: 90%;
+    }
+    .content3{
+        height: 50px;
+        background-color: rgb(14, 3, 61);
+        width: 70%;
+    }
+    .box3{
+        height: 200px;
+        display: flex;
+        width: 100%;
+        background-color: darkcyan;
+        align-items: center;
+    }
+    .box4{
+        height: 200px;
+        gap: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box5{
+        height: 200px;
+        display: flex;
+        width: 100%;
+        background-color: darkcyan;
+        align-items: center;
+    }
+    .box6{
+        height: 200px;
+        gap: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,226 @@
+main{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    height: 70px;
+    width: 49%;
+    background-color: orange;
+}
+.box2{
+    height: 70px;
+    width: 49%;
+    background-color: orange;
+}
+section{
+    height: 250px;
+    width: 100%;
+    background-color: lightgreen;
+}
+aside{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box3{
+    height: 200px;
+    width: 32%;
+    background-color: blue;
+}
+.box4{
+    height: 200px;
+    width: 32%;
+    background-color: blue;
+}
+.box5{
+    height: 200px;
+    width: 32%;
+    background-color: blue;
+}
+footer{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box6{
+    height: 180px;
+    width: 23%;
+    background-color: gainsboro;
+}
+.box7{
+    height: 180px;
+    width: 23%;
+    background-color: gainsboro;
+}
+.box8{
+    height: 180px;
+    width: 23%;
+    background-color: gainsboro;
+}
+.box9{
+    height: 180px;
+    width: 23%;
+    background-color: gainsboro;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    main{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box1{
+        height: 70px;
+        width: 100%;
+        background-color: orange;
+    }
+    .box2{
+        height: 70px;
+        width: 100%;
+        background-color: orange;
+    }
+    section{
+        height: 150px;
+        width: 100%;
+        background-color: lightgreen;
+    }
+    aside{
+        height: 620px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box3{
+        height: 200px;
+        width: 100%;
+        background-color: blue;
+    }
+    .box4{
+        height: 200px;
+        width: 100%;
+        background-color: blue;
+    }
+    .box5{
+        height: 200px;
+        width: 100%;
+        background-color: blue;
+    }
+    footer{
+        height: 100px;
+        width: 100%;
+        display: flex;
+    }
+    .box6{
+        height: 100px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .box7{
+        height: 100px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .box8{
+        height: 100px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .box9{
+        height: 100px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    main{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    header{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box1{
+        height: 70px;
+        width: 100%;
+        background-color: orange;
+    }
+    .box2{
+        height: 70px;
+        width: 100%;
+        background-color: orange;
+    }
+    section{
+        height: 150px;
+        width: 100%;
+        background-color: lightgreen;
+    }
+    aside{
+        height: 260px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box3{
+        height: 80px;
+        width: 100%;
+        background-color: blue;
+    }
+    .box4{
+        height: 80px;
+        width: 100%;
+        background-color: blue;
+    }
+    .box5{
+        height: 80px;
+        width: 100%;
+        background-color: blue;
+    }
+    footer{
+        height: 180px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box6{
+        height: 100px;
+        width: 49%;
+        background-color: gainsboro;
+    }
+    .box7{
+        height: 100px;
+        width: 49%;
+        background-color: gainsboro;
+    }
+    .box8{
+        height: 100px;
+        width: 49%;
+        background-color: gainsboro;
+    }
+    .box9{
+        height: 100px;
+        width: 49%;
+        background-color: gainsboro;
+    }
+}

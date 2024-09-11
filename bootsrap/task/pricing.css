@@ -1,0 +1,94 @@
+.box-shadow {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .05);
+}
+.pricing{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 1.5;
+    height: 240px;
+    align-items: center;
+}
+.pricebox{
+    margin-top: 10px;
+    height: 190px;
+    margin: 43px;
+    padding:50px;
+    width: 60%;
+}
+.pricinghead{
+    font-weight: 300;
+}
+.para{
+    text-align: center;
+    font-family: inherit;
+    font-size: large;
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+}
+.cardcontainer{
+    display: flex;
+    width: 65%;
+    gap: 25px;
+    text-align: center;
+}
+.card{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-title{
+    font-weight: 500;
+}
+.text-muted{
+    font-family: inherit;
+    font-weight: 400;
+}
+.card-title{
+    font-weight: 500;
+    font-family: inherit;
+}
+footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footersection{
+    width: 65%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 200px;
+}
+.bootstrap{
+    width: 30%;
+}
+img{
+    height: 30px;
+    width: 25px;
+}
+p{
+    font-family: inherit;
+    font-size: small;
+}
+.features{
+    height: 250px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.resources{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}

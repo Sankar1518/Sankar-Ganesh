@@ -1,0 +1,45 @@
+.box1{
+    height: 770px;
+    width: 100%;
+    margin: 10px;
+    border: solid black;
+    display: inline-block;
+}
+.box2{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(252, 108, 187);
+    display: inline-block;
+}
+p{
+    margin: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.box3{
+    height: 500px;
+    width: 100%;
+    margin: 10px;
+    display: inline-block;
+}
+.box4{
+    height: 500px;
+    width: 70%;
+    border: solid;
+    background-color: rgb(245, 237, 238);
+    display: inline-block;
+}
+.box5{
+    height: 500px;
+    width: 26%;
+    border: solid;
+    vertical-align: top;
+    background-color: rgb(252, 108, 187);
+    display: inline-block;
+}
+.box6{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(173, 161, 161);
+    display: inline-block;
+}

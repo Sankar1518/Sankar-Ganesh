@@ -1,0 +1,67 @@
+.box1{
+    height: 300px;
+    width: 50%;
+    margin: 90px;
+    border-radius: 0px 60px;
+    position: relative;
+    overflow: hidden;
+    background-color: teal;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+.circle1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 230px;
+    bottom: 250px;
+    background-color: white;
+}
+.circle2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 220px;
+    top: 250px;
+    background-color: white;
+}
+.square1{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+.square2{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+.square3{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 100px;
+    bottom: 270px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+.circle3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    top: 260px;
+    background-color: white;
+}

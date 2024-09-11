@@ -1,0 +1,35 @@
+.myswiper {
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .author-pic{
+    float: left;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    width: 50px;
+  }
+  .author{
+    height: 80px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+  }
+  #img{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+  }
+  .card {
+    padding: 0 8px;
+    overflow: hidden;
+  }
+  
+  .card__title {
+    text-align: center;
+    transition: opacity .3s;
+  }
+  
+  .swiper-slide:not(.swiper-slide-active) .card__title {
+    opacity: 0;
+  }

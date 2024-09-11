@@ -1,0 +1,36 @@
+/* h1{
+    color: red;
+    font-size: 50px;
+}
+
+#box{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    border: solid black 2px;
+}
+    */
+/* .box{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    border: solid red 2px;
+}
+.box{
+    height: 75px;
+    width: 5%;
+    background-color: blue;
+    border: solid black 2px;
+} */
+body{
+    background-image:url(https://i0.wp.com/picjumbo.com/wp-content/uploads/breathtaking-bali-nature-free-photo.jpg?w=600&quality=80) ;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 700px;
+    width: 100%;
+    border: solid black;
+    margin: 20px 40px 20px 30px;
+    padding: 20px;
+    background-color: azure;
+}

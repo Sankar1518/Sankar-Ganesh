@@ -1,0 +1,100 @@
+.box1{
+    height: 1500px;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(190, 190, 190);
+}
+.box2{
+    height: 100px;
+    width: 100%;
+    border: solid black;
+    margin: 10px;
+    background-color: white;
+}
+.box3{
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+}
+.box4{
+    height: 690px;
+    width: 98%;
+    margin: 10px;
+    background-color: white;
+}
+.box5{
+    height: 310px;
+    width: 60%;
+    margin: 10px;
+    background-color: rgb(218, 187, 187);
+    display: inline-block;
+}
+.box6{
+    height: 70px;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(131, 125, 125);
+    display: inline-block;
+}
+.box7{
+    height: 310px;
+    width: 60%;
+    margin: 10px;
+    vertical-align: top;
+    background-color: rgb(184, 164, 164);
+    display: inline-block;
+}
+.box8{
+    height: 70px;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(134, 128, 128);
+    display: inline-block;
+}
+.box9{
+    height: 200px;
+    width: 35%;
+    vertical-align: top;
+    border: solid;
+    background-color: rgb(226, 211, 211);
+    display: inline-block;
+}
+.box10{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(158, 147, 147);
+    display: inline-block;
+}
+.box11{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(221, 207, 207);
+    display: inline-block;
+}
+.box12{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(172, 164, 164);
+    display: inline-block;
+}
+.box13{
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+    background-color: rgb(134, 128, 128);
+    display: inline-block;
+}
+.box14{
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+    background-color: rgb(231, 210, 210);
+    display: inline-block;
+}
+.box15{
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+}

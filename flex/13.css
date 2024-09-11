@@ -1,0 +1,44 @@
+header{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: gray;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+main{
+    display: flex;
+}
+.content{
+    background-color: gray;
+    height: 150px;
+    margin: 5px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    background-color: rgb(102, 82, 53);
+    margin: 5px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 50px;
+    background-color: rgb(32, 22, 22);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

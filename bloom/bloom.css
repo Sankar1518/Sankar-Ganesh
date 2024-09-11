@@ -1,0 +1,294 @@
+header{
+    background-color: rgb(80, 75, 75);
+    height: 70px;
+    display: flex;
+}
+.bloom{
+    color: white;
+    display: flex;
+    align-content: center;
+}
+p{
+    font-size: xx-large;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 30%;
+    height: 70px;
+    align-items: center;
+    gap: 20px;
+}
+.navbar{
+    margin-left: 580px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    background-color: rgb(214, 207, 207);
+    height: 300px;
+}
+.box{
+    margin-left: 150px;
+    width: 50%;
+    margin-top: 20px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    border: 0;
+    width: 20%;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagebox{
+    height: 250px;
+    width: 30%;
+    margin-top: 20px;
+}
+.image{
+    height: 250px;
+    width: 100%;
+}
+section{
+    height: 520px;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    margin-left: 150px;
+    font-size: large;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxx{
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    width: 80%;
+}
+.box1{
+    height: 400px;
+    width: 30%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.box2{
+    height: 200px;
+    width: 100%;
+}
+.image1{
+    width: 100%;
+    height: 200px;
+}
+h4{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.learnmore{
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box3{
+    height: 400px;
+    width: 30%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.box4{
+    height: 200px;
+    width: 100%;
+}
+.image2{
+    width: 100%;
+    height: 200px;
+}
+.box5{
+    height: 400px;
+    width: 30%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: left;
+}
+.box6{
+    height: 200px;
+    width: 100%;
+}
+.image3{
+    width: 100%;
+    height: 200px;
+}
+.contact{
+    height: 350px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.posts{
+    height: 250px;
+    width: 23%;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+}
+.heading1{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.date1{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.date{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: black;
+}
+.datebox{
+    display: flex;
+    height: 50px;
+    width: 20%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 10%;
+    background-color: white;
+}
+.date1content{
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+h5{
+    margin-top: 0%;
+    margin-left: 5px;
+    height: 2px;
+    font-size: large;
+}
+.datepara{
+    font-size: medium;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 2px;
+    height: 10px;
+}
+.date2{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+.date2content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+.date3{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+.date3content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+.about{
+    height: 250px;
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+}
+.aboutheading{
+    color: white;
+}
+.social{
+    height: 250px;
+    width: 23%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.socialheading{
+    color: white;
+}
+.fb{
+    height: 30px;
+    display: flex;
+}
+.fbtitle{
+    color: white;
+    width: 100%;
+    margin-left: 15px;
+    font-size: larger;
+}
+.twitter{
+    height: 30px;
+    display: flex;
+    margin-top: 20px;
+}
+.twittertitle{
+    color: white;
+    width: 100%;
+    margin-left: 8px;
+    font-size: larger;
+}
+.rss{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+}
+.rsstitle{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-content: center;
+    color: white;
+}
+.googleplus{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+}
+.googletitle{
+    width: 100%;
+    margin-left: 17px;
+    display: flex;
+    align-content: center;
+    font-size: large;
+    color: white;
+}
+footer{
+    background-color: wheat;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

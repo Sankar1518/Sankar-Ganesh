@@ -1,0 +1,54 @@
+.box1{
+    height: 500px;
+    width: 100%;
+    margin: 15px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+}
+.box2{
+    height: 70px;
+    width: 95%;
+    margin: 15px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+}
+.box3{
+    height: 70px;
+    width: 95%;
+    margin: 15px;
+    border: 20px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+}
+.box4{
+    height: 150px;
+    width: 95%;
+    margin: 15px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+    display: inline-block;
+}
+.box5{
+    height: 100px;
+    width: 50%;
+    margin: 10px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+    display: inline-block;
+}
+.box6{
+    height: 100px;
+    width: 38%;
+    margin: 10px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+    display: inline-block;
+}
+.box7{
+    height: 70px;
+    width: 95%;
+    margin: 15px;
+    border: 20px;
+    border: solid black;
+    background-color: rgb(114, 114, 113);
+}

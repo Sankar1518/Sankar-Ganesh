@@ -1,0 +1,321 @@
+main {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+section {
+    height: 350px;
+    display: flex;
+    width: 80%;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 2px grey;
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    display: flex;
+    right: 380px;
+    gap: 15px;
+    flex-direction: column;
+    top: -15px;
+}
+
+.round1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px gray inset;
+}
+
+.boardig {
+    width: 70%;
+    border-top-left-radius: 20px;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    flex-direction: column;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpyuCK5HUoCxeCkp0N7r9odpEGJ7Z62_SWA&s);
+    background-size: cover;
+}
+
+.boardingpass {
+    height: 79px;
+    display: flex;
+    width: 100%;
+    border-top-left-radius: 20px;
+    background-color: skyblue;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.airline {
+    height: 80px;
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.passtext {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 0px;
+    position: absolute;
+}
+
+h1 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-weight: 700;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flightdetails {
+    display: flex;
+    width: 100%;
+    height: 280px;
+    border-bottom-left-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+
+.barcodeframe {
+    width: 17%;
+    height: 265px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    border-bottom-left-radius: 18px;
+}
+
+.code {
+    position: absolute;
+    top: -20px;
+}
+
+.barcode1 {
+    transform: rotate(90deg);
+}
+
+.barcode2 {
+    transform: rotate(90deg);
+}
+
+.barcode3 {
+    transform: rotate(90deg);
+}
+
+.barcode4 {
+    transform: rotate(90deg);
+}
+
+.passengerdetails {
+    height: 265px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dateandtime {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    height: 80px;
+    width: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.flightno {
+    height: 80px;
+    width: 20%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.date {
+    height: 80px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.seat {
+    height: 80px;
+    width: 20%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.london {
+    display: flex;
+    height: 110px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: xxx-large;
+}
+
+.time {
+    height: 70px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.gatebox {
+    height: 70px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.timebox {
+    height: 70px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.passenger {
+    height: 350px;
+    width: 40%;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.passengerpass {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    border-top-right-radius: 23px;
+    background-color: rgb(5, 5, 73);
+    justify-content: center;
+}
+
+.tokyo {
+    height: 80px;
+    display: flex;
+    width: 70%;
+    font-size: x-large;
+    justify-content: center;
+}
+
+.passdetails {
+    display: flex;
+    height: 270px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.name1 {
+    height: 45px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.flightseat {
+    height: 45px;
+    display: flex;
+    width: 70%;
+}
+
+.flightno1 {
+    height: 45px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.seat1 {
+    height: 45px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.date1 {
+    height: 45px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.gate1 {
+    height: 45px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: bolder;
+}
+
+.barcodeframe1 {
+    width: 70%;
+    height: 80px;
+}

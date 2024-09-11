@@ -1,0 +1,79 @@
+.main {
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+    gap: 25.1px;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    height: 100px;
+    width: 225px;
+    background-color: red;
+}
+
+.box2 {
+    height: 100px;
+    width: 225px;
+    background-color: brown;
+}
+
+.box3 {
+    height: 100px;
+    width: 225px;
+    background-color: burlywood;
+}
+
+.box4 {
+    height: 100px;
+    width: 225px;
+    background-color: gold;
+}
+
+.box5 {
+    height: 100px;
+    width: 225px;
+    background-color: hotpink;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .main{
+        gap: 10px;
+    }
+    .box1 {
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+    }
+    .box3 {
+        width: 100%;
+    }
+    .box4 {
+        width: 100%;
+    }
+    .box5 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .main{
+        gap: 20px;
+    }
+    .box1 {
+        width: 225px;
+    }
+    .box2 {
+        width: 225px;
+    }
+    .box3 {
+        width: 225px;
+    }
+    .box4 {
+        width: 225px;
+    }
+    .box5 {
+        width: 225px;
+    }
+}
